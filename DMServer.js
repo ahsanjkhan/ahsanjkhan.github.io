@@ -1,4 +1,4 @@
-const socket = io.connect("http://157.245.9.192:3000", {transports: ['websocket']});
+const socket = io.connect("https://157.245.9.192:3000", {transports: ['websocket']});
 
 let registered = false;
 let myname = "";
